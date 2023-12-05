@@ -1,0 +1,36 @@
+.search{
+    margin-top: 5%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+.searchbar{
+    width:45%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.searchbar input{
+    flex-grow: 1;
+    padding: 15px 0px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border:none;
+    outline: 0;
+    text-align: center;
+}
+
+.searchbar button{
+border: none;
+padding: 0px 23px;
+border-bottom-right-radius: 15px;
+border-top-right-radius: 15px;
+color:  #F8F9FA;
+background-color:  #3ECCA8;
+
+
+}

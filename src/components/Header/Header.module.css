@@ -1,0 +1,39 @@
+.header{
+    height: 80vh;
+    width:80%;
+margin: auto;
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.header img{
+
+    width:40%;
+    height: 80%;
+    box-shadow: -20px 20px 0px rgba(7, 104, 80, 0.836);;
+    
+}
+
+.header div{
+  
+    width:40%;
+    display: flex;
+    align-items: center;
+}
+.header  p{
+    width:100%;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header h2::after {
+    content: '';
+    width: 30%;
+    height: 2px;
+    background-color: rgb(27, 194, 153);
+    display: block;
+    margin-right: auto;
+    margin-top: 10px;
+}

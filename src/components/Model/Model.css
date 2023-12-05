@@ -1,0 +1,44 @@
+.Model{
+    width:60%;
+    border-radius: 15px;
+    height: 90vh;
+    background-color: rgb(248, 242, 242);
+    z-index: 1111;
+    position: absolute;
+    overflow: auto;
+}
+.overlay{
+    width:100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.X{
+    color:rgb(124, 119, 119);
+    position: absolute;
+    right:2.5%;
+    top:2.5%;
+    border:1px solid rgb(124, 119, 119);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin:auto;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.img{
+margin-top: 2%;
+margin-left: 2%;
+    width:30%;
+    height:35vh;
+    border-radius:50%;
+}
+.modelinfo span{
+    display: block;
+}

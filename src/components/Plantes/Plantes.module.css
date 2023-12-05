@@ -1,0 +1,16 @@
+.Plantes{
+    width: 80%;
+    margin: auto;
+    padding: 5% 0%;
+        display: flex;
+    justify-content: space-between;
+}
+
+.Plantes img{
+    width: 30%;
+    transition: transform 0.5s;
+}
+
+.Plantes img:hover{
+    transform: scale(0.75);
+}
