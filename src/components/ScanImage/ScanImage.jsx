@@ -49,7 +49,8 @@ export default function ScanImage() {
        <button className='d-inline' type='submit'>upload</button>
       </form>
        </div>
-      <img src='images/feature1.webp' alt=''/>
+        <img src='images/feature1.webp' alt='' style={{'width':'50%'}}/>
+
 
     </div>
   )
